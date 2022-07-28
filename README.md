@@ -8,7 +8,8 @@ A very basic TFS GUI Client written in python for Linux.
 Create a virtual environment
 
 ```bash
-  python3 -m venv env && source env/bin/activate
+  python3 -m venv env
+  source env/bin/activate
 ```
 
 Install all necessary packages 
