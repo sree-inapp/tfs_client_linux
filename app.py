@@ -1,9 +1,9 @@
 import sys
 import glob, os
+import json
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QFontDatabase,QGuiApplication,QPalette,QColor
 from PyQt5.QtWidgets import QWidget, QGridLayout,QPushButton, QApplication,QApplication,QFileDialog,QLineEdit
-import json
 
 with open("config.json") as f: 
     config = json.loads(f.read())
